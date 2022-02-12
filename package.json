@@ -1,0 +1,50 @@
+{
+    "name": "stun-cli",
+    "version": "1.0.0",
+    "description": "A command line tool to create, test, debug, build, publish comfortably.",
+    "main": "dist/main.min.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/7086cmd/stun.git"
+    },
+    "bin": {
+        "stun": "dist/stun-cli.min.js"
+    },
+    "type": "module",
+    "keywords": [
+        "stunning",
+        "stun",
+        "cli"
+    ],
+    "author": "7086cmd",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/7086cmd/stun/issues"
+    },
+    "homepage": "https://github.com/7086cmd/stun#readme",
+    "dependencies": {
+        "chalk": "^5.0.0",
+        "commander": "^8.3.0",
+        "esbuild": "^0.14.10",
+        "eslint": "^8.6.0",
+        "glob": "^7.2.0",
+        "node-fetch": "^3.1.0",
+        "prompts": "^2.4.2",
+        "shelljs": "^0.8.4",
+        "vite": "^2.7.10",
+        "vitepress": "^0.20.10"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8.2.1",
+        "@types/glob": "^7.2.0",
+        "@types/prompts": "^2.0.14",
+        "@typescript-eslint/eslint-plugin": "^5.8.1",
+        "@typescript-eslint/parser": "^5.8.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.5.1",
+        "typescript": "^4.5.4"
+    }
+}
